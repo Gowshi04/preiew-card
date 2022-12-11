@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  background-color: hsl(30, 38%, 92%);
+  text-align: center;
+}
+img{
+  height: 250px;
+}
+
+h3{
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.5rem;
+  font-size: 12px;
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.Container{
+  background-color: white;
+  width: 30%;
+  margin: 200px auto 200px auto;
+  position: relative;
+}
+
+.image{
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 40%;
+}
+
+.content{
+  width:70%;
+  text-align: left;
+  margin-left: 45%;
+}
+
+.line1{
+  width: 70%;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.line2{
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-size: 13px;
+  line-height: 1.2rem;
+}
+.line3{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.discount{
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  background: #52AD8C;
+  padding: 2px 50px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.cart{
+  width: 5px;
+  height: 5px;
+  color:white;
+}
